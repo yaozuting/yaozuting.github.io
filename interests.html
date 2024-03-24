@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me!!</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+    <style>
+        .interest{
+            margin-bottom: 6%;
+        }
+        .title_interest{
+            margin-bottom: 1%;
+        }
+        .text_container{
+            font-size: small;
+            text-align: center;
+            margin-left:2%;
+            margin-right: 3%;
+            margin-bottom: 1%;
+            padding: 0.5%;
+            border: 2px solid plum;
+
+        }
+        .pick{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0.5%;
+            margin-left:3%;
+            margin-right: 3%;
+            gap: 3%;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar_content">
+            <div class="photo-section"><img src="photo_of_me.jpg" alt="photo_of_me"></div>
+            <ul>
+                <li><a href="profile.html" class="current">&#127968 Profile</a></li>
+                <li><a href="education.html">&#128221 Education</a></li>
+                <li ><a href="skillsNlanguagues.html">&#127891 Skills & Languages </a></li>
+                <li class="current"><a href="interests.html"> &#128245 Hobbies & Interests </a></li>
+                <li><a href="jobExperience.html"> &#129520 Job Experience</a></li>
+            </ul>
+        </div>
+    </div>
+  
+    <div class="main-content">
+        <!-- Main content goes here -->
+        <div class="header"><h1>HOBBIES & INTERESTS</h1></div>
+        
+        <div class="text-section">
+           <div>
+               <ul>
+                  <!--music-->
+                  <li class="interest">
+                     <h2 class="title_interest">Music</h2>
+                     <div class="text_container">
+                        <p><i>Music is a must for me while studying,programming and etc.
+                        I love all sorts of music,but especially something light and chill as studying is already quite depressing
+                        My indiscriminate love for all sorts of music resulted in me having various favourite singers,including "Lauv" "沒有才能“ "V"</i></p>
+                    </div>
+                     <p style="margin-left: 2%;"><b>My Picks:</b></p>
+                     <ul>
+                        <li >
+                            <div class="pick">
+                                <p>Kids are Born Stars --Lauv</p>
+                                <audio controls>
+                                    <source src="interest/Lauv-Kids-Are-Born-Stars-Officia.mp3" type="audio/mpeg" >
+                                </audio>
+                            </div>
+                        </li>
+                        <li >
+                            <div class="pick" style="margin-left: 0;">
+                                <p>Squabble --HA SUNG WOON</p>
+                                <audio controls>
+                                    <source src="interest/squabble.mp3" type="audio/mpeg" >
+                            </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <!--youtube-->
+                    <li class="interest">
+                        <h2 class="title_interest">Youtube</h2>
+                        <div class="text_container">
+                           <p><i>Following the popularity of online content,
+                            Youtube has been indispensable in my life,as it offers all sorts of content,ranging from entertainment to education,catering for various needs.
+                            Through the Youtube,I have come to know about satirical comedy.And since,it has been my "mealmate".
+                           </i></p>
+                       </div>
+                        <p style="margin-left: 2%;"><b>My Picks:</b></p>
+                        <ul >
+                           <li >
+                               <div class="pick" >
+                                   <p>Last Week Tonight</p>
+                                   <iframe src="https://www.youtube.com/embed/Q8oCilY4szc?si=sh3QKsEdk8AaNPwb" title="YouTube video player" frameborder="1" allowfullscreen></iframe>
+                               </div>
+                           </li>
+                           <li >
+                               <div class="pick" style="margin-right:-1%;">
+                                   <p>Ronny Chieng</p>
+                                   <iframe src="https://www.youtube.com/embed/oUUVRa2SNWU?si=6bBzomaKFgHIhaOQ" title="YouTube video player" frameborder="1" allowfullscreen></iframe>
+                               </div>
+                           </li>
+                         </ul>
+                    </li>
+                    </li>
+                      </ul>
+                    </li>
+                    <!--podcast-->
+                    <li class="interest">
+                        <h2 class="title_interest">Podcast</h2>
+                        <div class="text_container">
+                           <p><i>Walking down the street with the earplug on is a phenomenom that so common I am part of it.I have grown quite fond of the culture,
+                            as it is one of the few instances,multitasking is possible.My usual playlist includes news,entertaining podcast. 
+                           </i></p>
+                       </div>
+                        <p style="margin-left: 2%;"><b>My Picks:</b></p>
+                        <ul >
+                           <li >
+                               <div class="pick" >
+                                   <p>HAIYAA with Nigel Ng</p>
+                                   <audio controls>
+                                    <source src="interest/nigel-ng.mp3" type="audio/mpeg" >
+                                </audio>
+                               </div>
+                           </li>
+                           <li >
+                            <div class="pick" style="margin-left: 6%;">
+                                <p>Wall Street Journal</p>
+                                <audio controls>
+                                 <source src="interest/wall_street_journal.mp3" type="audio/mpeg" >
+                             </audio>
+                            </div>
+                        </li>
+                         </ul>
+                    </li>
+               </ul>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
+
